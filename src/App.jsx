@@ -12,6 +12,7 @@ import About from "./Components/About";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Education from "./Components/Education";
+import Cert from "./Components/Cert";
 ////import Layout from "./Components/Layout";
 import "./styles.css";
 /**
@@ -52,6 +53,7 @@ function App() {
     <div id="Main">
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
+      <Cert />
       <About />
       <Portfolio />
       <Education />
