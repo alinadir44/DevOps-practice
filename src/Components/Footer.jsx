@@ -51,6 +51,7 @@ const Footer = (props) => {
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
         width: "100vw",
+        height: "100vh"
       }}
     >
       <div
@@ -58,6 +59,7 @@ const Footer = (props) => {
           display: "flex",
           justifyContent: "center",
           gap: "2.5rem",
+          marginTop: "30%"
         }}
       >
         {email && (
