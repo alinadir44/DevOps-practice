@@ -13,7 +13,7 @@ import React from "react";
 const Cert = () => {
 
     const Certifications = [
-      "Certification 1", "Certification 2", "Certification 3",
+      "Certification 1", "Certification 2", "Certification 3", "Certficiation 4"
     ];
 
   return (
