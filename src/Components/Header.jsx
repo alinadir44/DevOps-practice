@@ -22,12 +22,18 @@ const Header = () => {
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a href="#home">Home
+        {/* <Link to="/">Home</Link> */}
+      </a>
+      <a href="#about">About
+        {/* <Link to="/projects">Projects</Link> */}
+      </a>
+      <a href="#portfolio">Portfolio
+        {/* <Link to="/education">Education</Link> */}
+      </a>
+      {/* <a href="#footer">Contact</a>
+      <a href="#education">Education</a> */}
       <a href="#education">Education</a>
-
       {/* <li>
         <Link to="/">Home</Link>
       </li>
