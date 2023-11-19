@@ -5,6 +5,7 @@
  * user scrolls so that they can constantly reach any part of your page.
  */
 import React from "react";
+//import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -25,6 +26,17 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#footer">Contact</a>
+      <a href="#education">Education</a>
+
+      {/* <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/projects">Projects</Link>
+      </li>
+      <li>
+        <Link to="/education">Education</Link>
+      </li> */}
     </div>
   );
 };
