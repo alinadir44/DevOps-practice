@@ -49,7 +49,7 @@ function App() {
     //     <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     //   </Routes>
     // </>
-    <div id="main">
+    <div id="Main">
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
